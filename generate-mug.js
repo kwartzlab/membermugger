@@ -67,14 +67,7 @@ function GenerateMug(img) {
         // Using stream.toBlobURL() works, but filename is a GUID of some sort
         // This gives the PDF a proper name
         var blob = outpdf.toBlob('application/pdf');
-        var a = document.createElement("a");
-        document.body.appendChild(a);
-        a.style = "display: none";
-        var url = window.URL.createObjectURL(blob);
-        a.href = url;
-        a.download = name + '.pdf';
-        a.click();
-        window.URL.revokeObjectURL(url);
+        saveAs(blob, name + '.pdf');
     });
    
 }
