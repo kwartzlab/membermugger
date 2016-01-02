@@ -1,7 +1,9 @@
-The application runs in the browser, but needs to be served via http protocol.
+This formats member photos for the member photo wall. It generates a PDF for printing.
 
-This can be accomplished in many ways, but most distributions  have Python and the SimpleHTTPServer example installed:
+The application runs entirely in the browser, but needs to be served via http protocol.
+
+Serving locally can be be accomplished in many ways, but most distributions have Python (and the SimpleHTTPServer example) installed, which can be invoked as such:
 `pushd <directory>; python -m SimpleHTTPServer; popd`
 
-Open browser to http://localhost:8000
+The application can then be accessed via browser at http://localhost:8000
 
