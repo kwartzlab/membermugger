@@ -7,3 +7,5 @@ Serving locally can be be accomplished in many ways, but most distributions have
 
 The application can then be accessed via browser at http://localhost:8000
 
+2018-12-14
+- Added as github.io page: https://kwartzlab.github.io/membermugger/membermugger.html
